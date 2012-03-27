@@ -1,0 +1,5 @@
+Fgsl Framework - 1.0.1rc3
+=========================
+- 0000015: [Bug] Method _call() Fgsl_Html always assumes that there are arguments. (Fgsl) - resolved.
+- 0000014: [Bug] Fgsl_Html_Table doesn't work without data (Fgsl) - resolved.
+- 0000013: [Bug] Notice: Undefined property in BookCrudController (Fgsl) - resolved.

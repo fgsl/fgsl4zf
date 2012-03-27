@@ -1,0 +1,27 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Strict//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<h1><?php echo $this->title?></h1>
+	<table>
+	<tr>
+	<td>	
+	<h2><a href="<?php echo $this->insertLink?>">Insert</a></h2>
+	</td>
+	<td>
+		<form action="<?php echo $this->listLink?>" method="post">
+		<input type="text" name="value"/>
+		<select name="key">
+		<option id="<?php echo $this->searchField?>>"><?php echo $this->labelSearchField?></option>
+		</select>
+		<input type="submit" value="Search"/>
+		</form> 
+	</td>
+	</tr>
+	</table>
+	<?php echo $this->table; ?>	
+</body>
+</html>

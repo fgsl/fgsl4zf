@@ -1,0 +1,21 @@
+Attributes commented following the standard of Zend Framework.
+
+Fgsl_Crud_Controller now requires Zend_Autoloader. Namespaces Zend and Fgsl.
+
+Fgsl_Crud_Controler now uses Fgsl_Session_Namespace in _getDataFromPost ().
+
+Fgsl_Crud_Controller now generates search form (_getSearchForm ()).
+
+Fgsl_Db_Table allows to customize the query used by Fgsl_Crud_Controller.
+
+Fgsl_Form_Edit prepared for the elements Password and Checkbox.
+
+Method of PrepareForm Fgsl_Form_Edit becomes _prepareForm
+
+Fgsl_Session_Namespace refactored to be more simple. Included remove method to delete keys from memory.
+
+Fgsl_Html_Table supports parameters for the table.
+
+Built Fgsl_Html_Select class.
+
+Fgsl_Plugin changed to Fgls_Plugin_Controller.

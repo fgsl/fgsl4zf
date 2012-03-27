@@ -1,0 +1,5 @@
+Fgsl Framework - 1.0.0
+======================
+- 0000025: [Improvement] Improvement of View (Fgsl) - resolved.
+- 0000024: [Improvement] Improvement of Model (Fgsl) - resolved.
+- 0000023: [Improvement] Improvement of Controller (Fgsl) - resolved.

@@ -1,0 +1,23 @@
+Fgsl Framework - 1.0.0rc4
+=========================
+Issue          
+Category        Severity	Status
+----------------------------------------------------------------------------------------------------------------------------------------    
+0000016		[View]
+Feature request	major		resolved (Fgsl)	2010-09-01	Fgsl_View is not necessary if controller disables view renderization
+----------------------------------------------------------------------------------------------------------------------------------------
+0000017		[Controller]
+Feature request	major		resolved (Fgsl)	2010-09-01	Fgsl_Crud_Controller doesn't need a customized view
+----------------------------------------------------------------------------------------------------------------------------------------
+0000018		[Controller]
+Feature request	major		resolved (Fgsl)	2010-09-03	Method listAction() of Fgsl_Crud_Controller is very complex. It can be reduced.
+----------------------------------------------------------------------------------------------------------------------------------------
+0000019		[Html]
+Feature request	minor		resolved (Fgsl)	2010-09-03	Decorator structure of Fgsl_Html is prolix
+----------------------------------------------------------------------------------------------------------------------------------------
+0000021		[Controller]
+Bug				major		resolved (Fgsl)	2010-09-03	Fgsl_Session_Namespace must be initialized out of controller
+----------------------------------------------------------------------------------------------------------------------------------------
+0000022		[Plugin]
+Feature request	minor	resolved (Fgsl)	2010-09-03	Fgsl_Plugin_Controller must be independent of implementation of route rules
+----------------------------------------------------------------------------------------------------------------------------------------
